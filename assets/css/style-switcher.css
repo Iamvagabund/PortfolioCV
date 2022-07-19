@@ -33,7 +33,9 @@
 }
 .style-switcher-toggler {
   top: 0;
-  animation: 1.5s linear 0s normal none infinite running rot;
+}
+.style-switcher-toggler .uil-cog::before {
+  animation: rot 1s linear 0s infinite;
 }
 
 @keyframes rot {
