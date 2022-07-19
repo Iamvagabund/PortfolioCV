@@ -84,3 +84,28 @@
 .style-switcher .color-5 {
   background: #f021b2;
 }
+
+@media screen and (max-width: 576px) {
+  .style-switcher {
+    padding: 10px;
+  }
+
+  .style-switcher .s-icon {
+    margin-right: 15px;
+    height: 34px;
+    width: 34px;
+    font-size: 18px;
+  }
+
+  .style-switcher .s-icon i {
+    line-height: 36px;
+  }
+
+  .style-switcher-toggler {
+    top: 4px;
+  }
+
+  .day-night {
+    top: 48px;
+  }
+}
